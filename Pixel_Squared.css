@@ -1,0 +1,58 @@
+body {
+	background-color: #372a2a;
+	}
+
+#sketchpad {
+    font-family: italic 2em "Open Sans";
+	font-size: 50px;
+}
+
+#console {
+    width: 700px;
+    height: 750px;
+    background-color: #911d1d;
+    border-radius: 5%;
+    margin: auto;
+    border: 2px solid;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: #c0adad;
+    margin: auto;
+    position: relative;
+    bottom: -30px;
+    border: 1px solid;
+}
+
+.Random, .Fade{
+    bottom: -60px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-family: Impact, charcoal, sans-seriff;
+    margin: auto;
+    border-radius: 100%;
+    
+}
+
+.Random {                         				 /*Aligns buttons*/
+    margin-left: 150px;
+}
+
+.Fade{				 				 /*Aligns buttons*/
+    margin-left: 165px;
+}														
+
+.Color{
+	margin-top: 100px;
+	width: 75px;
+	margin-left: 30px;
+	font-family: charcoal, sans-seriff;
+}
+
+.Entered {
+	background-color: #cd3845;
+	transition: background-color 0.5s ease;
+}
